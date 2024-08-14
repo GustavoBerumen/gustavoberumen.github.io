@@ -9,18 +9,22 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <style>
-      .pdf {
-          width: 50%;
-          aspect-ratio: 1 / 2;
-          align-self: center;
-      }
-      .pdf,
+      table {
+        border-collapse: collapse;
+        width: 100%;
+        }
+
+      td, th {
+        text-align: left;
+        padding: 8px;
+        }
+
       html,
       body {
-          height: 100%;
-          margin: 0;
-          padding: 1%;
+        height: 100%;
+        padding: 1%;
       }
+
       body, h1,h2,h3,h4,h5,h6 {font-family: "Montserrat", sans-serif}
     </style>
   </head>
@@ -37,32 +41,44 @@
 </div>
 
 <!-- Page Content -->
-<div class="w3-padding-large w3-section w3-margin-left w3-center">
-  <p>
-    Experience
-    <br>
-    Sep 2022-Present User Experience Researcher, Ocado Technology
-    <br>
-    <br>
-    Skills 
-    <br>
-    Programming
-    <br>
-    R, Python, and Matlab
-    <br>
-    <br>
-    Teaching 
-    <br>
-    2019-2022	Mixed Reality Technologies (G54MRT), University of Nottingham, UK
-    <br>
-    <br>
-    Education
-    <br> 
-    2017-2022 	Ph.D. Human computer interaction, University of Nottingham, the UK
-  </p>
+<div class="w3-content w3-justify w3-padding-64 w3-center">
+  <table>
+    <tr>
+      <th>Experience</th>
+    </tr>
+    <tr style="border-top: 1px solid #000000">
+      <td>Sep 2022-Present</td>
+      <td>User Experience Researcher</td>
+      <td><i>Ocado Technology</i></td>
+    </tr> 
+    <tr>
+      <td><u>Teaching</u></td>
+    </tr>
+    <tr>
+      <td>2019-2022</td>
+      <td>Mixed Reality Technologies (G54MRT)</td>
+      <td><i>University of Nottingham, UK</i></td>
+    </tr>
+    <tr>
+      <td><u>Education</u></td>
+    </tr>
+    <tr>
+      <td>2017-2022</td>
+      <td>Ph.D. Human computer interaction</td>
+      <td><i>University of Nottingham, UK</i></td>
+    </tr>
+    <tr>
+      <th>Skills</th>
+    </tr>
+    <tr style="border-top: 1px solid #000000;">
+      <td>Programming</td>
+      <td>R, Python, and Matlab</td>
+      <td><p> </p></td>
+    </tr>
+  </table>
 </div>
 <div class="w3-padding-large w3-section w3-margin-left w3-center">
-    <button class="w3-button w3-light-grey ">
+    <button class="w3-button w3-light-grey">
       <a href="GustavoBerumen_CV.pdf" method="POST" target="_blank" style="text-decoration: none;">View Resume</a>
     </button>
 </div>
