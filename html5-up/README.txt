@@ -2,6 +2,7 @@ Story by HTML5 UP
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
+Hi Max
 
 Say hello to Story, a brand new responsive one-pager for HTML5 UP! Inspired by my work
 on Carrd*, Story is built to be extremely modular and tweakable, and as such is entirely
